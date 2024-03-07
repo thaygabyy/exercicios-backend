@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste Salarial</title>
+</head>
+<body>
+
+    <script>
+        // Exercício 3
+        const salarioAtual = parseFloat(prompt('Digite o salário mensal atual:'));
+        const percentualReajuste = parseFloat(prompt('Digite o percentual de reajuste:'));
+
+        const novoSalario = salarioAtual + (salarioAtual * (percentualReajuste / 100));
+
+        console.log(`O novo salário é: ${novoSalario.toFixed(2)}`);
+    </script>
+
+</body>
+</html>

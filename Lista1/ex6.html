@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário Final do Vendedor</title>
+</head>
+<body>
+
+    <script>
+        // Exercício 6
+        const numeroCarrosVendidos = parseInt(prompt('Digite o número de carros vendidos:'));
+        const valorVendas = parseFloat(prompt('Digite o valor total das vendas:'));
+        const salarioFixo = parseFloat(prompt('Digite o salário fixo do vendedor:'));
+        const valorPorCarro = parseFloat(prompt('Digite o valor que o vendedor recebe por carro vendido:'));
+
+        const salarioFinal = salarioFixo + (numeroCarrosVendidos * valorPorCarro) + (valorVendas * 0.05);
+
+        console.log(`O salário final do vendedor é: ${salarioFinal.toFixed(2)}`);
+    </script>
+
+</body>
+</html>
